@@ -1,0 +1,42 @@
+/* Basic reset and styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image:url('l2.png');
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:100% 100% ;
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+}
+
+.question {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.answer {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.answer a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.answer a:hover {
+  text-decoration: underline;
+}
